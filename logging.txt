@@ -1,0 +1,167 @@
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=100
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=100
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:29 GMT
+X-Kong-Upstream-Latency: 6
+X-Kong-Proxy-Latency: 0
+Via: kong/2.0.4
+
+{
+    "Datetime": "1970-01-01 00:01:40"
+}
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=00105
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=00105
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:31 GMT
+X-Kong-Upstream-Latency: 6
+X-Kong-Proxy-Latency: 0
+Via: kong/2.0.4
+
+{
+    "Datetime": "1970-01-01 00:01:45"
+}
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=-21
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=-21
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:33 GMT
+X-Kong-Upstream-Latency: 5
+X-Kong-Proxy-Latency: 0
+Via: kong/2.0.4
+
+{
+    "Datetime": "1969-12-31 23:59:39"
+}
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=a100
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=a100
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Content-Type: text/plain; charset=utf-8
+Content-Length: 124
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:34 GMT
+X-Kong-Upstream-Latency: 6
+X-Kong-Proxy-Latency: 1
+Via: kong/2.0.4
+
+{"Error":"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format."}
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=105%5E%25
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=105^%
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Content-Type: text/plain; charset=utf-8
+Content-Length: 124
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:35 GMT
+X-Kong-Upstream-Latency: 5
+X-Kong-Proxy-Latency: 0
+Via: kong/2.0.4
+
+{"Error":"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format."}
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Content-Type: text/plain; charset=utf-8
+Content-Length: 136
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:36 GMT
+X-Kong-Upstream-Latency: 5
+X-Kong-Proxy-Latency: 0
+Via: kong/2.0.4
+
+{"Error":"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Value cannot be null. (Parameter 's') (Parameter 's')"}
+Request method:	GET
+Request URI:	https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp?unixtimestamp=10.5
+Proxy:			<none>
+Request params:	<none>
+Query params:	unixtimestamp=10.5
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Content-Type: text/plain; charset=utf-8
+Content-Length: 124
+Connection: keep-alive
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 06 Sep 2022 21:43:37 GMT
+X-Kong-Upstream-Latency: 5
+X-Kong-Proxy-Latency: 1
+Via: kong/2.0.4
+
+{"Error":"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format."}

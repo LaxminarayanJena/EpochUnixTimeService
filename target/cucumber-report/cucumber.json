@@ -1,0 +1,566 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-06T21:43:25.892Z",
+        "line": 13,
+        "name": "Verify if epoch api functionality for correct unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-correct-unixtimestamp-is-working;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3870000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is sucess with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1417000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"dateValue\" in response body is \"Datetime\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dateValue\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Datetime\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinations.DateTime.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T21:43:31.411Z",
+        "line": 14,
+        "name": "Verify if epoch api functionality for correct unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-correct-unixtimestamp-is-working;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1015000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"00105\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"00105\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is sucess with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"dateValue\" in response body is \"Datetime\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dateValue\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Datetime\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinations.DateTime.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T21:43:32.498Z",
+        "line": 15,
+        "name": "Verify if epoch api functionality for correct unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-correct-unixtimestamp-is-working;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 992000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"-21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"-21\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is sucess with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"dateValue\" in response body is \"Datetime\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dateValue\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Datetime\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinations.DateTime.in_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T21:43:33.525Z",
+        "line": 28,
+        "name": "Verify if epoch api functionality for incorrect unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-incorrect-unixtimestamp-is-working;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"a100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"a100\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the API call is sucess with errormsg and status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_errormsg_and_statusCode(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "errorMsg in response body is \"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format.\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.DateTime.error_msg_in_response_body_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T21:43:34.560Z",
+        "line": 29,
+        "name": "Verify if epoch api functionality for incorrect unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-incorrect-unixtimestamp-is-working;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 969000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"105^%\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"105^%\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the API call is sucess with errormsg and status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_errormsg_and_statusCode(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "errorMsg in response body is \"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format.\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.DateTime.error_msg_in_response_body_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T21:43:35.574Z",
+        "line": 30,
+        "name": "Verify if epoch api functionality for incorrect unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-incorrect-unixtimestamp-is-working;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 984000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the API call is sucess with errormsg and status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_errormsg_and_statusCode(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "errorMsg in response body is \"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Value cannot be null. (Parameter \u0027s\u0027) (Parameter \u0027s\u0027)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Value cannot be null. (Parameter \u0027s\u0027) (Parameter \u0027s\u0027)\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.DateTime.error_msg_in_response_body_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-06T21:43:36.597Z",
+        "line": 31,
+        "name": "Verify if epoch api functionality for incorrect unixtimestamp is working",
+        "description": "",
+        "id": "validating-epoch-api-s;verify-if-epoch-api-functionality-for-incorrect-unixtimestamp-is-working;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 969000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls \"getUnixTimeStampAPI\" with \"Get\" http request with unixtimeStamp as \"10.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getUnixTimeStampAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"10.5\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinations.DateTime.user_calls_with_http_request_with_unixtime_stamp_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the API call is sucess with errormsg and status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinations.DateTime.the_api_call_is_sucess_with_errormsg_and_statusCode(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "errorMsg in response body is \"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UnixTimeService.RESTHost.fromunixtimestamp.TryCatch.Try.UnixTimeStamp: Input string was not in a correct format.\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.DateTime.error_msg_in_response_body_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@epoch"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Epoch API\u0027s",
+    "description": "",
+    "id": "validating-epoch-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/epochValidations.feature",
+    "tags": []
+  }
+]
