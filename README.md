@@ -19,4 +19,4 @@ properties </br>
 resources </br>
 runner </br>
 stepDefinations </br>
-Report </br>
+Report </br> -Cucumber HTML Reporting
